@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); 
+*
+{
+    margin: 0px;
+}
+
+header{
+    font-family: 'Raleway', sans-serif;
+    background-image: url(img/fon.jpeg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+}
+
+.act{
+    cursor: pointer;
+    width: 200px;
+}
+
+.header{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.up li{
+  font-size: 15px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.up li a{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.cont{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.cont1{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 30px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.psd {
+    height: 100%;
+    width: 100%;
+}
+
+#img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.Ludi {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.Imya {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0 10px 0 ;
+}
+
+.Rab {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 30px 0;
+    color: red;
+}
+
+.soc {
+    padding: 50px 0 0 0;
+}
+
+
+.Zhen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.Zhtext{
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px;
+    color: white;
+    background-color: #53354a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#bio {
+    padding: 30px 0 0 0;
+}
+
+#iu {
+    padding: 20px 0;
+}
+
+
+.downl {
+    font-family: 'Roboto Slab', serif;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ot {
+    padding: 10px 0 0 0;
+}
+
+#ui {
+    padding: 40px 0 0 0;
+}
+
+
+footer {
+    padding: 60px;
+    background-color: #3a3e64;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socseti {
+    display: flex;
+    flex-direction: row;
+}
+
+.inf1 {
+    padding: 10px;
+    color: white;
+}
+
+.inf2 {
+    color: #9092a7;
+}
+
+.inf3 {
+    color: white;
+}
+
+.footer {
+    background-color: #313454;
+    display: flex;
+    justify-content: center;
+
+}
